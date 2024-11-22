@@ -20,7 +20,7 @@ function runWorker(workerData) {
 
 app.get("/", async (req, res) => {
   console.log("Starting algo");
-  const number = 20000;
+  const number = 20000000;
   console.log(`Generating array of length ${number}`);
 
   try {

@@ -7,6 +7,7 @@ const arr = generateArray(workerData);
 console.log(`Worker: Array generated. First element: ${arr[0]}`);
 
 console.log("Worker: Starting bubble sort");
+console.log(arr.length);
 bubbleSort(arr);
 console.log("Worker: Sorting complete");
 
